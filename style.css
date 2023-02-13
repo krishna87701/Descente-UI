@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300;400&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:40px 80px;
+}
+.new-links{
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+.new-links h1{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.New-ui{
+    width: 60%;
+    padding-left: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+   
+}
+.New-ui li {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.BTN-one{
+border-radius: 40px;
+padding: 8px 30px;
+background-color: #f6f6f6;
+color: black;
+
+}
+.yellow{
+    width: 50px;
+    height: 40px;
+    background-color: yellow;
+    border-radius: 40px;
+    margin-left: 59px;
+  
+}
+
+.BTN-two{
+    margin-left: 3px;
+    border-radius: 24px;
+    height: 35px;
+    width: 240px;
+    color: rgb(242, 234, 234);
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    
+   
+    }
+    .BTN-two span{
+      text-align: center;
+      margin-left: 7px;
+      color: black;
+    }
+
+ .Hero-Section{
+    height: 95vh;
+    width: 80%;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Section-text{
+    background-color: yello;
+    height: 70vh;
+    width: 60%;
+    padding: 50px ;
+    align-items: center;
+    justify-content: space-between;
+}
+.Section-text span{
+
+}
+.Section-text p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.Section-text h1{
+    font-size: 0px;
+    width: 410px;
+}
+.h1-span {
+    font-size: 108px;
+    font-weight: 300;
+} 
+.h1-span h1{
+    font-size: 90px;
+    font-weight: 600;
+}
+
+ .Train-img{
+    height: 120px; 
+    position: absolute;
+    /* top: 294px; */
+  
+}
+.underline{
+    width: 400px;
+    height: 6px;
+    background-color: black;
+    margin-top: -39px;
+}
+.underline2{
+    width:400px;
+    height: 10px;
+    background-color: black;
+    margin-top: -19px;
+}
+.underline3{
+    width: 400px;
+    height: 10px;
+    background-color: black;
+    margin-top: -10px;
+
+}
+.Hero-img{
+    width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}  
+
+.Section-virtual{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    /* height: 45vh; */
+}
+.Text-virtual{
+    border: 1px solid black;
+    height: 240px;
+    width: 35%;
+    padding: 40px ;
+}
+.Text-virtual h2{
+    font-weight: 700;
+    padding-bottom: 80px;
+}
+
+.Text-virtual h1{
+    font-size: 25px;
+    font-weight: 900;
+}
+.Text-virtual p{
+    font-size: 14px;
+}
+.Virtual-tech{
+    border: 1px solid black;
+    border-radius: 1px solid black;
+    height: 240px;
+    width: 65%;
+    padding: 25px;
+    margin: 10px;
+}
+.Virtual-tech h2{
+   padding: 10px;
+   margin-left: 10px;
+   padding-bottom: 60px;
+   font-size: 22px;
+   font-weight: 400;
+}
+.Virtual-tech h3{
+    align-items: center;
+    padding-left: 210px;
+    font-weight: 500;
+}
+
+
+@media all and (max-width: 768px) {
+    .new-links ul li{
+         display: none;
+    }
+    .Hero-Section{
+        display: flex;
+        flex-direction: column;
+    }
+ 
+}
